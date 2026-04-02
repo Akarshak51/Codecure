@@ -1,0 +1,9 @@
+{
+  "train_samples": 12060,
+  "test_samples": 647,
+  "dense_feature_count": 801,
+  "selected_sparse_feature_count": 843,
+  "total_feature_count": 1644,
+  "assay_count": 12,
+  "sparse_threshold": 0.05
+}

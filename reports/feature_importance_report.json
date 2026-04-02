@@ -1,0 +1,1080 @@
+{
+  "model_summary": {
+    "assay_count": 12,
+    "feature_count": 1644,
+    "train_samples": 12060,
+    "test_samples": 647,
+    "n_estimators": 100,
+    "max_depth": 18,
+    "cv_folds": 3,
+    "mean_roc_auc": 0.81525
+  },
+  "global_top_features": [
+    {
+      "feature": "Chi7",
+      "importance": 0.004747
+    },
+    {
+      "feature": "bcutm1",
+      "importance": 0.004386
+    },
+    {
+      "feature": "LogP",
+      "importance": 0.004264
+    },
+    {
+      "feature": "Chi9",
+      "importance": 0.003757
+    },
+    {
+      "feature": "bcutm2",
+      "importance": 0.003687
+    },
+    {
+      "feature": "Chiv8",
+      "importance": 0.003646
+    },
+    {
+      "feature": "bcutp2",
+      "importance": 0.003573
+    },
+    {
+      "feature": "Chi8",
+      "importance": 0.003549
+    },
+    {
+      "feature": "Gravto",
+      "importance": 0.0035
+    },
+    {
+      "feature": "Chiv7",
+      "importance": 0.003488
+    },
+    {
+      "feature": "bcute10",
+      "importance": 0.003461
+    },
+    {
+      "feature": "Chiv9",
+      "importance": 0.00345
+    },
+    {
+      "feature": "bcutm9",
+      "importance": 0.003414
+    },
+    {
+      "feature": "Chi10",
+      "importance": 0.003188
+    },
+    {
+      "feature": "Weight",
+      "importance": 0.003163
+    },
+    {
+      "feature": "Chiv10",
+      "importance": 0.003137
+    },
+    {
+      "feature": "Sito",
+      "importance": 0.003116
+    },
+    {
+      "feature": "bcute9",
+      "importance": 0.003051
+    },
+    {
+      "feature": "Chi6",
+      "importance": 0.003044
+    },
+    {
+      "feature": "Chiv5",
+      "importance": 0.003036
+    }
+  ],
+  "per_assay_top_features": {
+    "NR.AhR": [
+      {
+        "feature": "naro",
+        "importance": 0.011424
+      },
+      {
+        "feature": "ecfp2:1866620644",
+        "importance": 0.011414
+      },
+      {
+        "feature": "ecfp6:1866620644",
+        "importance": 0.01058
+      },
+      {
+        "feature": "MoRSEM22",
+        "importance": 0.009537
+      },
+      {
+        "feature": "MoRSEP19",
+        "importance": 0.008604
+      },
+      {
+        "feature": "dfs8:63670037",
+        "importance": 0.008224
+      },
+      {
+        "feature": "dfs8:66252",
+        "importance": 0.008216
+      },
+      {
+        "feature": "MoRSEP25",
+        "importance": 0.007958
+      },
+      {
+        "feature": "ecfp10:1866620644",
+        "importance": 0.007746
+      },
+      {
+        "feature": "ecfp4:1866620644",
+        "importance": 0.007286
+      },
+      {
+        "feature": "MoRSEV25",
+        "importance": 0.007211
+      },
+      {
+        "feature": "MoRSEV13",
+        "importance": 0.006781
+      },
+      {
+        "feature": "dfs6:66252",
+        "importance": 0.006555
+      },
+      {
+        "feature": "slogPVSA5",
+        "importance": 0.006501
+      },
+      {
+        "feature": "bcute9",
+        "importance": 0.006361
+      },
+      {
+        "feature": "MoRSEE14",
+        "importance": 0.006226
+      },
+      {
+        "feature": "UI",
+        "importance": 0.006159
+      },
+      {
+        "feature": "MoRSEP12",
+        "importance": 0.006068
+      },
+      {
+        "feature": "dfs6:-428753296",
+        "importance": 0.005696
+      },
+      {
+        "feature": "slogPVSA7",
+        "importance": 0.005576
+      }
+    ],
+    "NR.AR": [
+      {
+        "feature": "Chiv7",
+        "importance": 0.012664
+      },
+      {
+        "feature": "Chiv5",
+        "importance": 0.011677
+      },
+      {
+        "feature": "Chiv6",
+        "importance": 0.011553
+      },
+      {
+        "feature": "Chi7",
+        "importance": 0.011309
+      },
+      {
+        "feature": "bcutm9",
+        "importance": 0.01074
+      },
+      {
+        "feature": "ecfp6:-1588525584",
+        "importance": 0.010242
+      },
+      {
+        "feature": "ecfp10:-1588525584",
+        "importance": 0.0101
+      },
+      {
+        "feature": "ecfp8:-1588525584",
+        "importance": 0.010018
+      },
+      {
+        "feature": "Chi6",
+        "importance": 0.009965
+      },
+      {
+        "feature": "Chiv8",
+        "importance": 0.009476
+      },
+      {
+        "feature": "Chiv9",
+        "importance": 0.009399
+      },
+      {
+        "feature": "ecfp4:-1588525584",
+        "importance": 0.008599
+      },
+      {
+        "feature": "dfs8:-468062237",
+        "importance": 0.008489
+      },
+      {
+        "feature": "nring",
+        "importance": 0.008359
+      },
+      {
+        "feature": "dfs8:-468062721",
+        "importance": 0.007842
+      },
+      {
+        "feature": "RDFU2",
+        "importance": 0.007173
+      },
+      {
+        "feature": "PC4",
+        "importance": 0.007143
+      },
+      {
+        "feature": "bcutv9",
+        "importance": 0.006713
+      },
+      {
+        "feature": "ecfp2:-1588525584",
+        "importance": 0.006563
+      },
+      {
+        "feature": "Chi9",
+        "importance": 0.006221
+      }
+    ],
+    "NR.AR.LBD": [
+      {
+        "feature": "Chi9",
+        "importance": 0.021397
+      },
+      {
+        "feature": "Chi7",
+        "importance": 0.017461
+      },
+      {
+        "feature": "Chiv4pc",
+        "importance": 0.014398
+      },
+      {
+        "feature": "bcutm9",
+        "importance": 0.014032
+      },
+      {
+        "feature": "Chiv9",
+        "importance": 0.013985
+      },
+      {
+        "feature": "Chiv10",
+        "importance": 0.013722
+      },
+      {
+        "feature": "PC6",
+        "importance": 0.013464
+      },
+      {
+        "feature": "Chiv4",
+        "importance": 0.012798
+      },
+      {
+        "feature": "bcutp9",
+        "importance": 0.012618
+      },
+      {
+        "feature": "Chiv6ch",
+        "importance": 0.012572
+      },
+      {
+        "feature": "Qindex",
+        "importance": 0.01236
+      },
+      {
+        "feature": "nring",
+        "importance": 0.010375
+      },
+      {
+        "feature": "bcute9",
+        "importance": 0.010321
+      },
+      {
+        "feature": "Chiv8",
+        "importance": 0.010268
+      },
+      {
+        "feature": "knotpv",
+        "importance": 0.010019
+      },
+      {
+        "feature": "Chiv7",
+        "importance": 0.009205
+      },
+      {
+        "feature": "Chi8",
+        "importance": 0.00907
+      },
+      {
+        "feature": "knotp",
+        "importance": 0.00851
+      },
+      {
+        "feature": "Chi4",
+        "importance": 0.008398
+      },
+      {
+        "feature": "Chi6",
+        "importance": 0.008028
+      }
+    ],
+    "NR.Aromatase": [
+      {
+        "feature": "bcutp2",
+        "importance": 0.01389
+      },
+      {
+        "feature": "Sito",
+        "importance": 0.011765
+      },
+      {
+        "feature": "Chi8",
+        "importance": 0.010906
+      },
+      {
+        "feature": "bcutm7",
+        "importance": 0.008994
+      },
+      {
+        "feature": "Chi7",
+        "importance": 0.008818
+      },
+      {
+        "feature": "ZM2",
+        "importance": 0.00789
+      },
+      {
+        "feature": "bcutm6",
+        "importance": 0.007307
+      },
+      {
+        "feature": "Chiv10",
+        "importance": 0.007264
+      },
+      {
+        "feature": "PC2",
+        "importance": 0.007234
+      },
+      {
+        "feature": "bcutv6",
+        "importance": 0.00709
+      },
+      {
+        "feature": "Thara",
+        "importance": 0.006906
+      },
+      {
+        "feature": "ecfp10:1028",
+        "importance": 0.006723
+      },
+      {
+        "feature": "Chiv8",
+        "importance": 0.006041
+      },
+      {
+        "feature": "LogP",
+        "importance": 0.005955
+      },
+      {
+        "feature": "Chi10",
+        "importance": 0.00585
+      },
+      {
+        "feature": "Ipc",
+        "importance": 0.005763
+      },
+      {
+        "feature": "PC6",
+        "importance": 0.005656
+      },
+      {
+        "feature": "nhev",
+        "importance": 0.005634
+      },
+      {
+        "feature": "bcutp6",
+        "importance": 0.005509
+      },
+      {
+        "feature": "Chi1",
+        "importance": 0.00548
+      }
+    ],
+    "NR.ER": [
+      {
+        "feature": "bcute10",
+        "importance": 0.012763
+      },
+      {
+        "feature": "Sito",
+        "importance": 0.005949
+      },
+      {
+        "feature": "bcutp2",
+        "importance": 0.005273
+      },
+      {
+        "feature": "Chi6ch",
+        "importance": 0.005116
+      },
+      {
+        "feature": "slogPVSA1",
+        "importance": 0.005013
+      },
+      {
+        "feature": "MoRSEU17",
+        "importance": 0.004546
+      },
+      {
+        "feature": "MATSv1",
+        "importance": 0.004526
+      },
+      {
+        "feature": "LogP",
+        "importance": 0.004518
+      },
+      {
+        "feature": "bcutm10",
+        "importance": 0.004503
+      },
+      {
+        "feature": "Chiv6ch",
+        "importance": 0.004332
+      },
+      {
+        "feature": "bcute2",
+        "importance": 0.004224
+      },
+      {
+        "feature": "Chiv9",
+        "importance": 0.004079
+      },
+      {
+        "feature": "Hy",
+        "importance": 0.003976
+      },
+      {
+        "feature": "bcutp10",
+        "importance": 0.003927
+      },
+      {
+        "feature": "Chi10",
+        "importance": 0.003604
+      },
+      {
+        "feature": "bcutv1",
+        "importance": 0.003537
+      },
+      {
+        "feature": "GATSv1",
+        "importance": 0.003455
+      },
+      {
+        "feature": "ecfp4:1028",
+        "importance": 0.003403
+      },
+      {
+        "feature": "MoRSEP6",
+        "importance": 0.003378
+      },
+      {
+        "feature": "Arto",
+        "importance": 0.003331
+      }
+    ],
+    "NR.ER.LBD": [
+      {
+        "feature": "GATSp8",
+        "importance": 0.010628
+      },
+      {
+        "feature": "bcutm10",
+        "importance": 0.009313
+      },
+      {
+        "feature": "bcute9",
+        "importance": 0.006808
+      },
+      {
+        "feature": "bcute10",
+        "importance": 0.00656
+      },
+      {
+        "feature": "MoRSEV7",
+        "importance": 0.006305
+      },
+      {
+        "feature": "MoRSEN4",
+        "importance": 0.005545
+      },
+      {
+        "feature": "dfs8:63282362",
+        "importance": 0.005511
+      },
+      {
+        "feature": "GATSm8",
+        "importance": 0.00544
+      },
+      {
+        "feature": "bcutm2",
+        "importance": 0.005439
+      },
+      {
+        "feature": "MRVSA5",
+        "importance": 0.005234
+      },
+      {
+        "feature": "MATSp1",
+        "importance": 0.005133
+      },
+      {
+        "feature": "PC5",
+        "importance": 0.005082
+      },
+      {
+        "feature": "GATSe8",
+        "importance": 0.005041
+      },
+      {
+        "feature": "ecfp6:1039",
+        "importance": 0.004999
+      },
+      {
+        "feature": "Gravto",
+        "importance": 0.004899
+      },
+      {
+        "feature": "dfs8:684809200",
+        "importance": 0.004697
+      },
+      {
+        "feature": "Chiv8",
+        "importance": 0.00462
+      },
+      {
+        "feature": "bcutm5",
+        "importance": 0.004478
+      },
+      {
+        "feature": "ecfp4:1039",
+        "importance": 0.004477
+      },
+      {
+        "feature": "MoRSEP7",
+        "importance": 0.004269
+      }
+    ],
+    "NR.PPAR.gamma": [
+      {
+        "feature": "Gravto",
+        "importance": 0.007128
+      },
+      {
+        "feature": "bcutm2",
+        "importance": 0.00705
+      },
+      {
+        "feature": "bcutm3",
+        "importance": 0.006948
+      },
+      {
+        "feature": "Chiv5",
+        "importance": 0.006445
+      },
+      {
+        "feature": "RDFP14",
+        "importance": 0.006192
+      },
+      {
+        "feature": "dchi1",
+        "importance": 0.005493
+      },
+      {
+        "feature": "Chiv0",
+        "importance": 0.005261
+      },
+      {
+        "feature": "Chiv8",
+        "importance": 0.005152
+      },
+      {
+        "feature": "grav",
+        "importance": 0.005085
+      },
+      {
+        "feature": "MRVSA6",
+        "importance": 0.004473
+      },
+      {
+        "feature": "RDFP16",
+        "importance": 0.004313
+      },
+      {
+        "feature": "Chiv7",
+        "importance": 0.004307
+      },
+      {
+        "feature": "MRVSA5",
+        "importance": 0.004224
+      },
+      {
+        "feature": "bcutm5",
+        "importance": 0.004071
+      },
+      {
+        "feature": "RASA",
+        "importance": 0.003786
+      },
+      {
+        "feature": "RDFV14",
+        "importance": 0.003639
+      },
+      {
+        "feature": "LabuteASA",
+        "importance": 0.003624
+      },
+      {
+        "feature": "MoRSEV17",
+        "importance": 0.00359
+      },
+      {
+        "feature": "dchi3",
+        "importance": 0.003488
+      },
+      {
+        "feature": "bcutm7",
+        "importance": 0.003407
+      }
+    ],
+    "SR.ARE": [
+      {
+        "feature": "bcutm2",
+        "importance": 0.008184
+      },
+      {
+        "feature": "WNSA1",
+        "importance": 0.007007
+      },
+      {
+        "feature": "Gravto",
+        "importance": 0.005438
+      },
+      {
+        "feature": "Chi10",
+        "importance": 0.005398
+      },
+      {
+        "feature": "bcutm1",
+        "importance": 0.005325
+      },
+      {
+        "feature": "LogP",
+        "importance": 0.00473
+      },
+      {
+        "feature": "bcutv2",
+        "importance": 0.004596
+      },
+      {
+        "feature": "dchi2",
+        "importance": 0.004451
+      },
+      {
+        "feature": "dchi3",
+        "importance": 0.004303
+      },
+      {
+        "feature": "bcute1",
+        "importance": 0.004129
+      },
+      {
+        "feature": "WNSA2",
+        "importance": 0.00399
+      },
+      {
+        "feature": "MoRSEV12",
+        "importance": 0.003969
+      },
+      {
+        "feature": "Weight",
+        "importance": 0.003943
+      },
+      {
+        "feature": "grav",
+        "importance": 0.003711
+      },
+      {
+        "feature": "MRVSA6",
+        "importance": 0.003602
+      },
+      {
+        "feature": "RDFM9",
+        "importance": 0.003602
+      },
+      {
+        "feature": "AWeight",
+        "importance": 0.003538
+      },
+      {
+        "feature": "Sito",
+        "importance": 0.00349
+      },
+      {
+        "feature": "GMTI",
+        "importance": 0.00341
+      },
+      {
+        "feature": "RDFC8",
+        "importance": 0.003111
+      }
+    ],
+    "SR.ATAD5": [
+      {
+        "feature": "MoRSEN11",
+        "importance": 0.006599
+      },
+      {
+        "feature": "MoRSEV17",
+        "importance": 0.006018
+      },
+      {
+        "feature": "dchi1",
+        "importance": 0.006009
+      },
+      {
+        "feature": "MoRSEP12",
+        "importance": 0.005465
+      },
+      {
+        "feature": "Arto",
+        "importance": 0.005362
+      },
+      {
+        "feature": "PNSA1",
+        "importance": 0.005177
+      },
+      {
+        "feature": "Gravto",
+        "importance": 0.004972
+      },
+      {
+        "feature": "bcutm2",
+        "importance": 0.004957
+      },
+      {
+        "feature": "Weight",
+        "importance": 0.004845
+      },
+      {
+        "feature": "MoRSEN17",
+        "importance": 0.004824
+      },
+      {
+        "feature": "Ke",
+        "importance": 0.004815
+      },
+      {
+        "feature": "MoRSEM11",
+        "importance": 0.004654
+      },
+      {
+        "feature": "WNSA1",
+        "importance": 0.004627
+      },
+      {
+        "feature": "Chi4c",
+        "importance": 0.004448
+      },
+      {
+        "feature": "P1u",
+        "importance": 0.004276
+      },
+      {
+        "feature": "MoRSEM25",
+        "importance": 0.00423
+      },
+      {
+        "feature": "dchi3",
+        "importance": 0.00413
+      },
+      {
+        "feature": "MoRSEU30",
+        "importance": 0.004038
+      },
+      {
+        "feature": "MoRSEM22",
+        "importance": 0.003973
+      },
+      {
+        "feature": "MRVSA4",
+        "importance": 0.003836
+      }
+    ],
+    "SR.HSE": [
+      {
+        "feature": "bcutm1",
+        "importance": 0.010488
+      },
+      {
+        "feature": "LogP",
+        "importance": 0.005773
+      },
+      {
+        "feature": "Gravto",
+        "importance": 0.005729
+      },
+      {
+        "feature": "Weight",
+        "importance": 0.005559
+      },
+      {
+        "feature": "AWeight",
+        "importance": 0.005044
+      },
+      {
+        "feature": "MRVSA9",
+        "importance": 0.004833
+      },
+      {
+        "feature": "MATSp1",
+        "importance": 0.004309
+      },
+      {
+        "feature": "LogP2",
+        "importance": 0.00424
+      },
+      {
+        "feature": "grav",
+        "importance": 0.003787
+      },
+      {
+        "feature": "Chiv3",
+        "importance": 0.003772
+      },
+      {
+        "feature": "WNSA1",
+        "importance": 0.003706
+      },
+      {
+        "feature": "Chiv1",
+        "importance": 0.003498
+      },
+      {
+        "feature": "VSAEstate9",
+        "importance": 0.003431
+      },
+      {
+        "feature": "slogPVSA1",
+        "importance": 0.00343
+      },
+      {
+        "feature": "bcutm3",
+        "importance": 0.003413
+      },
+      {
+        "feature": "MoRSEV17",
+        "importance": 0.003395
+      },
+      {
+        "feature": "Chiv0",
+        "importance": 0.003299
+      },
+      {
+        "feature": "Hatov",
+        "importance": 0.003265
+      },
+      {
+        "feature": "DPSA3",
+        "importance": 0.003256
+      },
+      {
+        "feature": "bcutp1",
+        "importance": 0.003246
+      }
+    ],
+    "SR.MMP": [
+      {
+        "feature": "LogP",
+        "importance": 0.015578
+      },
+      {
+        "feature": "LogP2",
+        "importance": 0.010019
+      },
+      {
+        "feature": "bcutv1",
+        "importance": 0.01001
+      },
+      {
+        "feature": "bcute10",
+        "importance": 0.008549
+      },
+      {
+        "feature": "bcutp2",
+        "importance": 0.007806
+      },
+      {
+        "feature": "bcutp1",
+        "importance": 0.007178
+      },
+      {
+        "feature": "MATSv1",
+        "importance": 0.007101
+      },
+      {
+        "feature": "ZM2",
+        "importance": 0.006694
+      },
+      {
+        "feature": "bcutv2",
+        "importance": 0.006548
+      },
+      {
+        "feature": "MoRSEV17",
+        "importance": 0.005661
+      },
+      {
+        "feature": "dfs8:-428753296",
+        "importance": 0.005442
+      },
+      {
+        "feature": "dfs8:1057365278",
+        "importance": 0.00522
+      },
+      {
+        "feature": "MoRSEP17",
+        "importance": 0.004972
+      },
+      {
+        "feature": "MATSe1",
+        "importance": 0.004933
+      },
+      {
+        "feature": "MoRSEV22",
+        "importance": 0.004652
+      },
+      {
+        "feature": "slogPVSA1",
+        "importance": 0.004596
+      },
+      {
+        "feature": "ecfp4:1028",
+        "importance": 0.004533
+      },
+      {
+        "feature": "bcutm1",
+        "importance": 0.004414
+      },
+      {
+        "feature": "GATSp1",
+        "importance": 0.00441
+      },
+      {
+        "feature": "BertzCT",
+        "importance": 0.004221
+      }
+    ],
+    "SR.p53": [
+      {
+        "feature": "bcutm1",
+        "importance": 0.011282
+      },
+      {
+        "feature": "Weight",
+        "importance": 0.008478
+      },
+      {
+        "feature": "Chi7",
+        "importance": 0.008124
+      },
+      {
+        "feature": "PNSA1",
+        "importance": 0.007984
+      },
+      {
+        "feature": "grav",
+        "importance": 0.007711
+      },
+      {
+        "feature": "bcutm2",
+        "importance": 0.006622
+      },
+      {
+        "feature": "Arto",
+        "importance": 0.006368
+      },
+      {
+        "feature": "Chi5",
+        "importance": 0.006183
+      },
+      {
+        "feature": "Ipc",
+        "importance": 0.005799
+      },
+      {
+        "feature": "Chi8",
+        "importance": 0.005655
+      },
+      {
+        "feature": "MoRSEM11",
+        "importance": 0.005558
+      },
+      {
+        "feature": "Gravto",
+        "importance": 0.005494
+      },
+      {
+        "feature": "bcutv1",
+        "importance": 0.005236
+      },
+      {
+        "feature": "Chi10",
+        "importance": 0.005202
+      },
+      {
+        "feature": "dchi3",
+        "importance": 0.005084
+      },
+      {
+        "feature": "bcutm3",
+        "importance": 0.004934
+      },
+      {
+        "feature": "Chi6",
+        "importance": 0.004595
+      },
+      {
+        "feature": "Chiv4",
+        "importance": 0.004588
+      },
+      {
+        "feature": "PC6",
+        "importance": 0.004506
+      },
+      {
+        "feature": "Qindex",
+        "importance": 0.004425
+      }
+    ]
+  }
+}

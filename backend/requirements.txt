@@ -1,0 +1,23 @@
+﻿# CodeCure Drug Toxicity Prediction - Python Dependencies
+# All packages are free and open-source
+
+# Web Framework
+fastapi>=0.100.0,<1.0.0
+uvicorn[standard]>=0.22.0,<1.0.0
+python-multipart>=0.0.6
+
+# Data Science & ML
+scikit-learn>=1.3.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+scipy>=1.11.0,<2.0.0
+
+# Visualization
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+
+# Data Validation
+pydantic>=2.0.0,<3.0.0
+
+# Utilities
+joblib>=1.3.0
